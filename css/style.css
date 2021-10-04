@@ -9,13 +9,73 @@ header {
     background-image: url(../img/pattern.png);
 }
 
-.container img{
+
+.logo img{
     width: 200px;
     margin-top: 50px;
     margin-bottom: 20px;
+    
 }
 
 .container{
     width: 98%;
     margin: auto;
+}
+
+.container h1{
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+.writer-source{
+    font-size: 18px;
+    font-weight: 800;
+    color: #8a8a8a;
+}
+
+.writer-source span{
+    color: #41b4e7;
+}
+
+.writing-date{
+    font-size: 12px;
+    color: #8a8a8a;
+    margin-bottom: 20px;
+}
+
+.photo-description{
+    font-size: 12px;
+}
+
+.text-content{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.text-underline{
+    background-color: #ffff03;
+}
+
+.lorem-list{
+    margin-bottom: 15px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.largest {
+    width: 50%;
+}
+
+thead{
+    background-color: #20a9e5;
+}
+
+.color-row{
+    background-color: #b1e5f2;
+}
+
+.text-content{
+    margin-bottom: 15px;
 }
