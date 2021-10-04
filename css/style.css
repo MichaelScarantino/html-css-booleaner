@@ -1,9 +1,10 @@
+/*RESET*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/*HEADER*/
 header {
     background-color: #4ea0ff;
     background-image: url(../img/pattern.png);
@@ -17,6 +18,7 @@ header {
     
 }
 
+/*COMMON*/
 .container{
     width: 98%;
     margin: auto;
@@ -43,6 +45,7 @@ header {
     margin-bottom: 20px;
 }
 
+/*PHOTO AND TEXT*/
 .photo-description{
     font-size: 12px;
 }
@@ -56,10 +59,12 @@ header {
     background-color: #ffff03;
 }
 
+/*LIST*/
 .lorem-list{
     margin-bottom: 15px;
 }
 
+/*TABLE*/
 table{
     border-collapse: collapse;
 }
@@ -76,6 +81,38 @@ thead{
     background-color: #b1e5f2;
 }
 
+
 .text-content{
     margin-bottom: 15px;
 }
+
+/*FOOTER*/
+.other{
+    font-weight: 800;
+    color: #8a8a8a;
+}
+
+.bg-desck{
+    background-image: url(../img/monitor.jpg);
+    width: 250px;
+    height: 200px;
+    margin-top: 10px;
+    
+    
+}
+
+.lorem-text {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+.bg-graphic{
+    background-image: url(../img/graph.jpg);
+    width: 250px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
